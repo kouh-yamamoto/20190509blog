@@ -1,0 +1,176 @@
+<div class="row">
+    <div class="col-3">
+        <p>駅名</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.station_name }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>ふりがな</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.furigana }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>会社種別</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.get_Organization1_KindOfOG_display }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>鉄道会社1</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.get_organization1_display }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>鉄道会社2</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.get_organization2_display }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>鉄道会社3</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.get_organization3_display }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>鉄道会社4</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.get_organization4_display }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>鉄道会社5</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.get_organization5_display }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>鉄道会社6</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.get_organization6_display }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>所属路線1</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.line1 }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>所属路線2</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.line2 }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>所属路線3</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.line3 }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>所属路線4</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.line4 }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>所属路線5</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.line5 }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>所属路線6</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.line6 }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>所属路線7</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.line7 }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>所属路線8</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.line8 }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>所属路線9</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.line9 }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>都道府県</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.prefectures }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>市区町村</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.city }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>その他</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.memo|linebreaksbr }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>登録日</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.created_at|date:"Y/m/d G:i:s" }}</p>
+    </div>
+</div>
